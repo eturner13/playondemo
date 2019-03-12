@@ -1,11 +1,11 @@
-#PlayOn! Sports Demo 
-##The Star Wars Planet People Lister
+# PlayOn! Sports Demo 
+## The Star Wars Planet People Lister
 
-### Requires Node
+##### Requires Node!
 
 ### To install and run:
 
-### Clone repository, run the following commands in the cloned directory:
+#### Clone repository, run the following commands in the cloned directory:
 
 ```
 npm install
