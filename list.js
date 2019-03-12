@@ -24,7 +24,7 @@ const fetchPlanets = async () => {
     console.log('Fetching Planets...');
     let planetList = await axios.get('https://swapi.co/api/planets');
     planets = planetList.data.results;
-    for (let count = planetList.data.count - 10, page = 1; count > 0; count = count - 10, page = page + 1) {
+    for (let count = planetList.data.count - 10, page = 2; count > 0; count = count - 10, page++) {
         const path = 'https://swapi.co/api/planets/?page=' + page;
         let morePlanets = await axios.get(path);
         morePlanets = morePlanets.data.results;
@@ -36,7 +36,7 @@ const fetchPeople = async () => {
     console.log('Fetching People...');
     let peopleList = await axios.get('https://swapi.co/api/people');
     people = peopleList.data.results;
-    for (let count = peopleList.data.count - 10, page = 1; count > 0; count = count - 10, page = page + 1) {
+    for (let count = peopleList.data.count - 10, page = 2; count > 0; count = count - 10, page++) {
         const path = 'https://swapi.co/api/people/?page=' + page;
         let morePeople = await axios.get(path);
         morePeople = morePeople.data.results;
