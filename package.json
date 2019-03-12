@@ -1,0 +1,12 @@
+{
+  "name": "playondemo",
+  "version": "1.0.0",
+  "description": "Play On Sports demo",
+  "main": "list.js",
+  "scripts": {},
+  "author": "Eric Turner",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
