@@ -1,2 +1,0 @@
-# playondemo
-PlayOn! Sport demo
